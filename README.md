@@ -1,1 +1,6 @@
 # DSI_Capstone_project
+The goal of this of the capstone project is to predict potencially fraudulent claims based on the claims filed by healthcare providers.Healthcare fraud can affect anyone from healthcare funds to fund members. It happens when healthcare providers or an individuals provide false information or withholds information to get financial benefits. Other Types of fraud include, billing for services that were not provided, duplicate submissions of a claim for the same service, misrepresenting the service provided, charging for a more complex or expensive service than was provided or billing for a covered service when the service provided was not covered.
+
+The project will be a binary classification problem to find whether the provider claim is fraudulent or legitamate. Using the claim details submitted by that provider.
+
+The dataset consists of the labelled data for a total of 5410 providers and the labels for these providers are provided in a separate file titled “Train.csv”.The dataset provided to us consists of 3 different csv files that have the Inpatient, Outpatient and the Beneficiary data. Each of the healthcare providers are identified by a unique ID and this ID is a part of the outpatient and the Inpatient datasets which also carries the beneficiary ID.
